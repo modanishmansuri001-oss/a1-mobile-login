@@ -12,14 +12,18 @@ html,body{
 body{
     min-height:100vh;
 
-    /* Top Blue → Bottom White */
     background:linear-gradient(
         to bottom,
         #0a4dff 0%,
-        #3f7cff 35%,
-        #7fb2ff 70%,
-        #ffffff 100%
+        #3f7cff 20%,
+        #78a8ff 45%,
+        #dce9ff 70%,
+        #ffffff 88%
     );
+
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 
     background-repeat:no-repeat;
     background-size:cover;
