@@ -75,3 +75,52 @@ body{
     display:block;
 
 }
+.top-bar{
+
+    position:absolute;
+
+    top:18px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:92%;
+    max-width:420px;
+
+    height:42px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(16px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:999px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    z-index:50;
+
+}
+
+.dot{
+
+    width:8px;
+    height:8px;
+
+    border-radius:50%;
+
+    background:#00ff88;
+
+    box-shadow:0 0 12px #00ff88;
+
+}
