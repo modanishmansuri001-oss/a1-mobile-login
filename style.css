@@ -7,26 +7,35 @@
 html,body{
     width:100%;
     height:100%;
+    overflow:hidden;
 }
 
-body{
-    min-height:100vh;
+.background{
+    position:relative;
+    width:100%;
+    height:100vh;
 
     background:linear-gradient(
         to bottom,
-        #0a4dff 0%,
-        #3f7cff 20%,
-        #78a8ff 45%,
-        #dce9ff 70%,
-        #ffffff 88%
+        #2f62ff 0%,
+        #5d8fff 45%,
+        #cfdcf5 82%,
+        #ffffff 100%
     );
 
-    background-repeat:no-repeat;
-    background-size:cover;
+    overflow:hidden;
 }
 
-    background-repeat:no-repeat;
-    background-size:cover;
+.wave{
+    position:absolute;
+    left:-10%;
+    width:120%;
+    border-radius:50%;
 }
 
-
+/* Dark Blue Wave */
+.wave1{
+    height:260px;
+    bottom:-140px;
+    background:#0d2f9f;
+}
