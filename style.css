@@ -124,3 +124,76 @@ body{
     box-shadow:0 0 12px #00ff88;
 
 }
+
+.navbar{
+
+position:absolute;
+
+top:80px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:92%;
+max-width:420px;
+
+height:78px;
+
+background:#fff;
+
+border-radius:20px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:0 22px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+z-index:60;
+
+}
+
+.logo h1{
+
+font-size:34px;
+
+font-weight:900;
+
+color:#1565ff;
+
+line-height:1;
+
+}
+
+.logo h1 span{
+
+color:#111;
+
+}
+
+.logo p{
+
+font-size:12px;
+
+margin-top:2px;
+
+color:#666;
+
+}
+
+.menu{
+
+font-size:42px;
+
+font-weight:bold;
+
+color:#222;
+
+cursor:pointer;
+
+}
