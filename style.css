@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    min-height:100vh;
+
+    /* Top Blue → Bottom White */
+    background:linear-gradient(
+        to bottom,
+        #0a4dff 0%,
+        #3f7cff 35%,
+        #7fb2ff 70%,
+        #ffffff 100%
+    );
+
+    background-repeat:no-repeat;
+    background-size:cover;
+}
