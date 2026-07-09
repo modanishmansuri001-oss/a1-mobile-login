@@ -48,4 +48,20 @@ html,body{
 
     transform:rotate(-5deg);
 }
+.wave2{
+    position:absolute;
+    left:-8%;
+    bottom:-110px;
+
+    width:118%;
+    height:220px;
+
+    background:#5ea9ff;
+
+    border-radius:50% 50% 0 0 / 100% 100% 0 0;
+
+    transform:rotate(4deg);
+
+    opacity:.95;
+}
 
