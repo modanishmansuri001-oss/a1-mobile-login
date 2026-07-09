@@ -7,95 +7,19 @@
 html,body{
     width:100%;
     height:100%;
-    overflow:hidden;
 }
 
 .background{
-    position:relative;
     width:100%;
     height:100vh;
+    position:relative;
+    overflow:hidden;
 
     background:linear-gradient(
         to bottom,
         #2f62ff 0%,
         #5d8fff 45%,
-        #cfdcf5 82%,
+        #d7e4ff 80%,
         #ffffff 100%
     );
-
-    overflow:hidden;
-}
-
-.wave{
-    position:absolute;
-    left:-10%;
-    width:120%;
-    border-radius:50%;
-}
-
-/* Dark Blue Wave */
-.wave1{
-    position:absolute;
-    left:-15%;
-    bottom:-170px;
-
-    width:130%;
-    height:320px;
-
-    background:#0d2f9f;
-
-    border-radius:50% 50% 0 0 / 100% 100% 0 0;
-
-    transform:rotate(-5deg);
-}
-.wave2{
-    position:absolute;
-    left:-8%;
-    bottom:-110px;
-
-    width:118%;
-    height:220px;
-
-    background:#5ea9ff;
-
-    border-radius:50% 50% 0 0 / 100% 100% 0 0;
-
-    transform:rotate(4deg);
-
-    opacity:.95;
-}
-
-.wave3{
-    position:absolute;
-    left:-5%;
-    bottom:-75px;
-
-    width:112%;
-    height:140px;
-
-    background:rgba(255,255,255,.85);
-
-    border-radius:50% 50% 0 0 / 100% 100% 0 0;
-
-    transform:rotate(-2deg);
-
-    opacity:.9;
-}
-.bottom-svg{
-    position:absolute;
-    left:0;
-    bottom:0;
-
-    width:100%;
-    height:220px;
-
-    display:block;
-    z-index:5;
-}
-
-/* Purani waves hide */
-.wave1,
-.wave2,
-.wave3{
-    display:none;
 }
