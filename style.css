@@ -27,8 +27,8 @@ html,body{
 .bottom-wave{
     position:absolute;
     left:0;
-    bottom:0;
+    bottom:-2px;
     width:100%;
-    height:170px;
+    height:150px;
     display:block;
 }
