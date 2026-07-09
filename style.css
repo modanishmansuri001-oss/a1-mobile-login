@@ -90,8 +90,8 @@ body{
 .bottom-wave{
     position:absolute;
     left:0;
-    bottom:0;
+    bottom:-2px;
     width:100%;
-    height:235px;
+    height:255px;
     display:block;
 }
