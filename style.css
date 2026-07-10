@@ -9,16 +9,13 @@ body{
     background:#07142d;
 }
 
-#loginPage{
-    width:100%;
-    min-height:700px;
+.hero{
+    height:420px;
 
     background:linear-gradient(
         180deg,
         #06163d 0%,
-        #0a2c73 20%,
-        #1557d6 55%,
-        #5f9cff 82%,
+        #0d3ca5 70%,
         #ffffff 100%
     );
 }
