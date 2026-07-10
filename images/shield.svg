@@ -122,3 +122,29 @@ stroke="#FFFFFF"
 stroke-width="10"
 stroke-linecap="round"
 stroke-opacity=".12"/>
+<!-- BOTTOM DEPTH -->
+<path
+d="M120 330
+C145 405 190 455 210 472
+C230 455 275 405 300 330"
+fill="none"
+stroke="#00163F"
+stroke-width="16"
+stroke-linecap="round"
+stroke-opacity=".30"/>
+
+<!-- OUTER EDGE -->
+<path
+d="M210 35
+C305 55 360 110 360 205
+L360 275
+C360 365 305 435 210 492
+C115 435 60 365 60 275
+L60 205
+C60 110 115 55 210 35Z"
+fill="none"
+stroke="#8FE7FF"
+stroke-width="3"
+stroke-opacity=".40"/>
+
+</svg>
