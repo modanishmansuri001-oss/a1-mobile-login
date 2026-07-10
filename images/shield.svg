@@ -36,3 +36,34 @@ x2="100%" y2="100%">
 <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
 
 </linearGradient>
+
+  <!-- Blur -->
+<filter id="blur40">
+  <feGaussianBlur stdDeviation="40"/>
+</filter>
+
+<!-- Soft Blur -->
+<filter id="blur12">
+  <feGaussianBlur stdDeviation="12"/>
+</filter>
+
+<!-- Glow -->
+<filter id="glow">
+  <feGaussianBlur stdDeviation="10" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+
+<!-- OUTER GLOW -->
+<ellipse
+cx="210"
+cy="215"
+rx="170"
+ry="215"
+fill="url(#outerGlow)"
+filter="url(#blur40)"
+opacity=".95"/>
