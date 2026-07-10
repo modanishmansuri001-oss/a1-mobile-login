@@ -107,5 +107,44 @@ stroke="#003D9F"
 stroke-width="10"
 stroke-linecap="round"
 opacity=".22"/>
+
+<!-- INNER FRAME -->
+<path
+d="
+M210 82
+C270 95 306 132 306 192
+L306 248
+C306 308 270 356 210 398
+C150 356 114 308 114 248
+L114 192
+C114 132 150 95 210 82
+Z"
+fill="none"
+stroke="#9EDCFF"
+stroke-width="2"
+opacity=".75"/>
+
+<!-- TOP SHINE -->
+<path
+d="
+M160 92
+C182 82 238 82 260 92"
+fill="none"
+stroke="#FFFFFF"
+stroke-width="6"
+stroke-linecap="round"
+opacity=".28"/>
+
+<!-- BOTTOM DEPTH -->
+<path
+d="
+M145 332
+C165 370 190 400 210 416
+C230 400 255 370 275 332"
+fill="none"
+stroke="#001B58"
+stroke-width="10"
+stroke-linecap="round"
+opacity=".25"/>
   
 </svg>
