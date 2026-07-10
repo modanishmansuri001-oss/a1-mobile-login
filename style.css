@@ -10,19 +10,18 @@ body{
 }
 
 #loginPage{
-
     width:100%;
     min-height:100vh;
 
-    background: linear-gradient(
+    background:linear-gradient(
         180deg,
-        #0b5cff 0%,
-        #5aa8ff 45%,
+        #06163d 0%,
+        #0a2c73 20%,
+        #1557d6 55%,
+        #5f9cff 82%,
         #ffffff 100%
     );
-
 }
-
 /* TOP BAR */
 .top-bar{
     height:25px;
