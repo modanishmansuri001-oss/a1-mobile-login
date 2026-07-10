@@ -1,150 +1,71 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 420 520"
-width="420"
-height="520">
+viewBox="0 0 420 520">
 
 <defs>
 
-<!-- Outer Glow -->
-<radialGradient id="outerGlow"
-cx="50%" cy="38%" r="72%">
-<stop offset="0%" stop-color="#72BEFF" stop-opacity="0.85"/>
-<stop offset="55%" stop-color="#3B86FF" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#3B86FF" stop-opacity="0"/>
-</radialGradient>
-
-<!-- Main Shield -->
-<linearGradient id="shieldMain"
+<linearGradient id="frame"
 x1="0%" y1="0%"
 x2="0%" y2="100%">
-
-<stop offset="0%" stop-color="#5EC6FF"/>
-<stop offset="18%" stop-color="#3296FF"/>
-<stop offset="55%" stop-color="#0B63F5"/>
-<stop offset="100%" stop-color="#0838B9"/>
-
+<stop offset="0%" stop-color="#8EE6FF"/>
+<stop offset="20%" stop-color="#4FA7FF"/>
+<stop offset="60%" stop-color="#1568FF"/>
+<stop offset="100%" stop-color="#0834AE"/>
 </linearGradient>
 
-<!-- Inner Light -->
-<linearGradient id="innerLight"
+<linearGradient id="body"
 x1="0%" y1="0%"
 x2="100%" y2="100%">
-
-<stop offset="0%" stop-color="#FFFFFF" stop-opacity=".95"/>
-<stop offset="30%" stop-color="#C8ECFF" stop-opacity=".45"/>
-<stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-
+<stop offset="0%" stop-color="#56C5FF"/>
+<stop offset="35%" stop-color="#238CFF"/>
+<stop offset="100%" stop-color="#0A49D8"/>
 </linearGradient>
 
-  <!-- Blur -->
-<filter id="blur40">
-  <feGaussianBlur stdDeviation="40"/>
-</filter>
-
-<!-- Soft Blur -->
-<filter id="blur12">
-  <feGaussianBlur stdDeviation="12"/>
-</filter>
-
-<!-- Glow -->
 <filter id="glow">
-  <feGaussianBlur stdDeviation="10" result="blur"/>
-  <feMerge>
-    <feMergeNode in="blur"/>
-    <feMergeNode in="SourceGraphic"/>
-  </feMerge>
+<feGaussianBlur stdDeviation="12"/>
 </filter>
 
 </defs>
 
 <!-- OUTER GLOW -->
-<ellipse
-cx="210"
-cy="215"
-rx="170"
-ry="215"
-fill="url(#outerGlow)"
-filter="url(#blur40)"
-opacity=".95"/>
-<!-- MAIN SHIELD -->
 <path
-d="M210 35
-C305 55 360 110 360 205
-L360 275
-C360 365 305 435 210 492
-C115 435 60 365 60 275
-L60 205
-C60 110 115 55 210 35Z"
-fill="url(#shieldMain)"
+d="
+M210 28
+C308 48 372 106 372 206
+L372 282
+C372 378 307 448 210 503
+C113 448 48 378 48 282
+L48 206
+C48 106 112 48 210 28
+Z"
+fill="#4FA7FF"
+opacity=".18"
 filter="url(#glow)"/>
-<!-- INNER SHIELD -->
-<path
-d="M210 62
-C286 78 330 122 330 200
-L330 258
-C330 332 286 392 210 440
-C134 392 90 332 90 258
-L90 200
-C90 122 134 78 210 62Z"
-fill="url(#innerLight)"
-opacity=".28"/>
 
-<!-- LEFT SHADOW -->
+<!-- OUTER FRAME -->
 <path
-d="M210 35
-C150 60 115 120 115 210
-L115 270
-C115 330 145 382 210 430"
-fill="none"
-stroke="#001B5A"
-stroke-width="14"
-stroke-opacity=".28"/>
-<!-- RIGHT HIGHLIGHT -->
-<path
-d="M210 42
-C270 60 308 110 308 195
-L308 255
-C308 315 278 365 220 408"
-fill="none"
-stroke="#A8E8FF"
-stroke-width="8"
-stroke-linecap="round"
-stroke-opacity=".48"/>
+d="
+M210 36
+C302 54 360 108 360 202
+L360 276
+C360 366 301 432 210 486
+C119 432 60 366 60 276
+L60 202
+C60 108 118 54 210 36
+Z"
+fill="url(#frame)"/>
 
-<!-- CENTER SHINE -->
+<!-- INNER BODY -->
 <path
-d="M168 95
-C188 82 220 82 242 95
-C214 150 202 250 214 345"
-fill="none"
-stroke="#FFFFFF"
-stroke-width="10"
-stroke-linecap="round"
-stroke-opacity=".12"/>
-<!-- BOTTOM DEPTH -->
-<path
-d="M120 330
-C145 405 190 455 210 472
-C230 455 275 405 300 330"
-fill="none"
-stroke="#00163F"
-stroke-width="16"
-stroke-linecap="round"
-stroke-opacity=".30"/>
-
-<!-- OUTER EDGE -->
-<path
-d="M210 35
-C305 55 360 110 360 205
-L360 275
-C360 365 305 435 210 492
-C115 435 60 365 60 275
-L60 205
-C60 110 115 55 210 35Z"
-fill="none"
-stroke="#8FE7FF"
-stroke-width="3"
-stroke-opacity=".40"/>
+d="
+M210 58
+C286 74 334 120 334 198
+L334 262
+C334 336 286 392 210 442
+C134 392 86 336 86 262
+L86 198
+C86 120 134 74 210 58
+Z"
+fill="url(#body)"/>
 
 </svg>
