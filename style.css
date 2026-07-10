@@ -58,31 +58,18 @@ body{
 .logo-area span{
     color:#1f5cff;
 }
-
 .menu-btn{
-    width:15px;
-    height:15px;
-    padding:0;
-    margin-right:8px;
-
-
+    width:40px;
+    height:40px;
     display:flex;
     align-items:center;
     justify-content:center;
-
     background:transparent;
     border:none;
-    cursor:pointer;
-
-    color:#111;
-
-    font-size:10px;   /* 26-30px ke beech adjust kar sakte ho */
-    font-weight:200;
-    line-height:1;
-
     padding:0;
-    margin:0;
+    margin-right:8px;
 }
+
 /* HERO */
 
 .hero{
