@@ -10,7 +10,7 @@ body{
 }
 
 .hero{
-    min-height:100vh;
+    min-height:650px;
     text-align:center;
     padding-top:35px;
     color:#fff;
