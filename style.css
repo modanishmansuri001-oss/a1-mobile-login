@@ -91,13 +91,7 @@ body{
 }
 
 .hero h2{
-
-    margin-top:15px;
-
-    font-size:54px;
-
-    font-weight:800;
-
+display: none;
 }
 
 .hero h2 span{
@@ -107,13 +101,7 @@ body{
 }
 
 .subtitle{
-
-    margin-top:12px;
-
-    font-size:20px;
-
-    color:#d7d7d7;
-
+display: none;
 }
 
 /* LOGIN CARD */
