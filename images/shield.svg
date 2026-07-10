@@ -180,5 +180,44 @@ rx="95"
 ry="120"
 fill="#79C8FF"
 opacity=".08"/>
+
+<!-- OUTER EDGE -->
+<path
+d="
+M210 36
+C302 54 360 108 360 202
+L360 276
+C360 366 301 432 210 486
+C119 432 60 366 60 276
+L60 202
+C60 108 118 54 210 36
+Z"
+fill="none"
+stroke="#D7F8FF"
+stroke-width="2"
+opacity=".55"/>
+
+<!-- INNER SHADOW -->
+<path
+d="
+M210 58
+C286 74 334 120 334 198
+L334 262
+C334 336 286 392 210 442
+"
+fill="none"
+stroke="#002B7D"
+stroke-width="8"
+stroke-linecap="round"
+opacity=".18"/>
+
+<!-- CENTER LIGHT -->
+<ellipse
+cx="210"
+cy="180"
+rx="58"
+ry="72"
+fill="#FFFFFF"
+opacity=".05"/>
   
 </svg>
