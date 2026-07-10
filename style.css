@@ -60,23 +60,25 @@ body{
 }
 
 .menu-btn{
-    width:20px;
-    height:20px;
+    width:42px;
+    height:42px;
 
     display:flex;
     align-items:center;
     justify-content:center;
 
-    font-size:20px;
-    font-weight:400;
+    background:transparent;
+    border:none;
+    cursor:pointer;
+
+    color:#111;
+
+    font-size:28px;   /* 26-30px ke beech adjust kar sakte ho */
+    font-weight:300;
     line-height:1;
 
     padding:0;
     margin:0;
-
-    background:red !important;
-    color:yellow !important;
-    font-size:10px !important;
 }
 /* HERO */
 
