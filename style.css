@@ -35,7 +35,7 @@ body{
 /* HEADER */
 
 .main-header{
-    height:78px;
+    height:50px;
     background:#fff;
     display:flex;
     align-items:center;
@@ -44,14 +44,14 @@ body{
     box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
 .logo-area h1{
-    font-size:28px;
+    font-size:20px;
     margin:0;
     font-weight:800;
 }
 
 .logo-area p{
     margin-top:2px;
-    font-size:12px;
+    font-size:7px;
     color:#666;
 }
 
