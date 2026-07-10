@@ -1,104 +1,38 @@
+
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 420 520"
-     width="420"
-     height="520">
+viewBox="0 0 420 520"
+width="420"
+height="520">
 
-  <defs>
-    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#4FA9FF"/>
-      <stop offset="100%" stop-color="#0B52FF"/>
-    </linearGradient>
+<defs>
 
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="10"/>
-    </filter>
-       <radialGradient id="outerGlow"
-    cx="50%" cy="35%" r="70%">
-    <stop offset="0%" stop-color="#4ea3ff" stop-opacity="0.55"/>
-    <stop offset="45%" stop-color="#246dff" stop-opacity="0.25"/>
-    <stop offset="100%" stop-color="#246dff" stop-opacity="0"/>
+<!-- Outer Glow -->
+<radialGradient id="outerGlow"
+cx="50%" cy="38%" r="72%">
+<stop offset="0%" stop-color="#72BEFF" stop-opacity="0.85"/>
+<stop offset="55%" stop-color="#3B86FF" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#3B86FF" stop-opacity="0"/>
 </radialGradient>
 
-<linearGradient id="shieldBody"
-    x1="0%" y1="0%"
-    x2="0%" y2="100%">
-    <stop offset="0%" stop-color="#2e73ff"/>
-    <stop offset="30%" stop-color="#1c56d7"/>
-    <stop offset="70%" stop-color="#103ba5"/>
-    <stop offset="100%" stop-color="#08246f"/>
+<!-- Main Shield -->
+<linearGradient id="shieldMain"
+x1="0%" y1="0%"
+x2="0%" y2="100%">
+
+<stop offset="0%" stop-color="#5EC6FF"/>
+<stop offset="18%" stop-color="#3296FF"/>
+<stop offset="55%" stop-color="#0B63F5"/>
+<stop offset="100%" stop-color="#0838B9"/>
+
 </linearGradient>
-  </defs>
 
-<g filter="url(#blur)">
-     <ellipse
-    cx="210"
-    cy="220"
-    rx="170"
-    ry="215"
-    fill="url(#outerGlow)"
-    opacity="0.55"/>
-    <path
-      d="M210 30
-         C300 50 360 90 360 180
-         L360 270
-         C360 360 300 430 210 490
-         C120 430 60 360 60 270
-         L60 180
-         C60 90 120 50 210 30 Z"
-      fill="url(#shieldGradient)"
-      stroke="#74C0FF"
-      stroke-width="8"/>
+<!-- Inner Light -->
+<linearGradient id="innerLight"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
 
-     <path
-d="M210 52
-C285 68 334 103 334 178
-L334 260
-C334 334 287 394 210 446
-C133 394 86 334 86 260
-L86 178
-C86 103 135 68 210 52Z"
+<stop offset="0%" stop-color="#FFFFFF" stop-opacity=".95"/>
+<stop offset="30%" stop-color="#C8ECFF" stop-opacity=".45"/>
+<stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
 
-fill="none"
-stroke="#7fd6ff"
-stroke-width="5"
-opacity="0.85"/>
-
-<path
-d="M210 70
-C272 84 314 115 314 182
-L314 252
-C314 319 274 372 210 417
-C146 372 106 319 106 252
-L106 182
-C106 115 148 84 210 70Z"
-
-fill="none"
-stroke="#2f8cff"
-stroke-width="2.5"
-opacity="0.65"/>
-
-     <path
-d="M210 82
-C268 95 302 123 302 184
-L302 248
-C302 307 268 354 210 395
-C152 354 118 307 118 248
-L118 184
-C118 123 152 95 210 82Z"
-fill="none"
-stroke="#c7f5ff"
-stroke-width="3"
-opacity="0.55"/>
-
-<path
-d="M165 105
-C140 140 130 200 138 270
-C145 315 160 345 182 370"
-fill="none"
-stroke="#ffffff"
-stroke-width="7"
-stroke-linecap="round"
-opacity="0.18"/>
-  </g>
-
-</svg>
+</linearGradient>
