@@ -48,6 +48,34 @@
       fill="url(#shieldGradient)"
       stroke="#74C0FF"
       stroke-width="8"/>
+
+     <path
+d="M210 52
+C285 68 334 103 334 178
+L334 260
+C334 334 287 394 210 446
+C133 394 86 334 86 260
+L86 178
+C86 103 135 68 210 52Z"
+
+fill="none"
+stroke="#7fd6ff"
+stroke-width="5"
+opacity="0.85"/>
+
+<path
+d="M210 70
+C272 84 314 115 314 182
+L314 252
+C314 319 274 372 210 417
+C146 372 106 319 106 252
+L106 182
+C106 115 148 84 210 70Z"
+
+fill="none"
+stroke="#2f8cff"
+stroke-width="2.5"
+opacity="0.65"/>
   </g>
 
 </svg>
