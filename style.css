@@ -15,13 +15,13 @@ body{
     padding-top:35px;
     color:#fff;
 
-    background:linear-gradient(
-        180deg,
-        #04112d 0%,
-        #061b52 45%,
-        #0a3ea8 85%,
-        #2b67d9 94%,
-        #ffffff 100%
+    background: linear-gradient(
+    180deg,
+    #04112d 0%,
+    #061b52 60%,
+    #0a3ea8 92%,
+    #1d56c9 99%,
+    #ffffff 100%
     );
 }
 /* TOP BAR */
