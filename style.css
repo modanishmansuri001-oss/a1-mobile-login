@@ -6,7 +6,7 @@
 
 body{
     font-family:Arial,sans-serif;
-    background:#ffffff;
+    background:#000000;
 }
 
 .hero{
@@ -18,9 +18,9 @@ body{
     background: linear-gradient(
     180deg,
     #04112d 0%,
-    #061b52 35%,
-    #0a3ea8 88%,
-    #3d79e6 98%,
+    #061b52 45%,
+    #0a3ea8 92%,
+    #3d79e6 99%,
     #ffffff 100%
 );
 }
