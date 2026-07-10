@@ -60,8 +60,11 @@ body{
 }
 
 .menu-btn{
-    width:20px;
-    height:20px;
+    width:15px;
+    height:15px;
+    padding:0;
+    margin-right:8px;
+
 
     display:flex;
     align-items:center;
