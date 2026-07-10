@@ -27,7 +27,27 @@ body{
         #ffffff 100%
     );
 }
+.hero{
+    position: relative;
+    overflow: hidden;
+}
 
+.hero::before{
+    content: "";
+    position: absolute;
+
+    top: 60px;
+    left: -130px;
+
+    width: 340px;
+    height: 430px;
+
+    background: url("images/shield.svg") no-repeat center;
+    background-size: contain;
+
+    opacity: .18;
+    pointer-events: none;
+}
 /* TOP BAR */
 .top-bar{
     height:25px;
