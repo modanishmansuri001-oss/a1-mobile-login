@@ -74,9 +74,9 @@ body{
     padding:0;
     margin:0;
 
-    background:none;
-    border:none;
-    cursor:pointer;
+    background:red !important;
+    color:yellow !important;
+    font-size:10px !important;
 }
 /* HERO */
 
