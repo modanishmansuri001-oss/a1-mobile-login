@@ -100,3 +100,25 @@ fill="none"
 stroke="#001B5A"
 stroke-width="14"
 stroke-opacity=".28"/>
+<!-- RIGHT HIGHLIGHT -->
+<path
+d="M210 42
+C270 60 308 110 308 195
+L308 255
+C308 315 278 365 220 408"
+fill="none"
+stroke="#A8E8FF"
+stroke-width="8"
+stroke-linecap="round"
+stroke-opacity=".48"/>
+
+<!-- CENTER SHINE -->
+<path
+d="M168 95
+C188 82 220 82 242 95
+C214 150 202 250 214 345"
+fill="none"
+stroke="#FFFFFF"
+stroke-width="10"
+stroke-linecap="round"
+stroke-opacity=".12"/>
