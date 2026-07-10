@@ -67,3 +67,14 @@ ry="215"
 fill="url(#outerGlow)"
 filter="url(#blur40)"
 opacity=".95"/>
+<!-- MAIN SHIELD -->
+<path
+d="M210 35
+C305 55 360 110 360 205
+L360 275
+C360 365 305 435 210 492
+C115 435 60 365 60 275
+L60 205
+C60 110 115 55 210 35Z"
+fill="url(#shieldMain)"
+filter="url(#glow)"/>
