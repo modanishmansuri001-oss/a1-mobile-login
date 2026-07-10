@@ -18,9 +18,9 @@ body{
     background:linear-gradient(
         180deg,
         #04112d 0%,
-        #061b52 35%,
-        #0a3ea8 70%,
-        #7faeff 88%,
+        #061b52 45%,
+        #0a3ea8 85%,
+        #2b67d9 94%,
         #ffffff 100%
     );
 }
@@ -78,15 +78,7 @@ body{
 
 /* HERO */
 
-.hero{
 
-    text-align:center;
-
-    padding-top:35px;
-
-    color:#fff;
-
-}
 
 .security-logo{
 
