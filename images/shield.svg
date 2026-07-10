@@ -106,7 +106,7 @@ fill="none"
 stroke="#003D9F"
 stroke-width="10"
 stroke-linecap="round"
-opacity=".22"/>
+opacity=".16"/>
 
 <!-- INNER FRAME -->
 <path
@@ -133,7 +133,7 @@ fill="none"
 stroke="#FFFFFF"
 stroke-width="6"
 stroke-linecap="round"
-opacity=".28"/>
+opacity=".16"/>
 
 <!-- BOTTOM DEPTH -->
 <path
