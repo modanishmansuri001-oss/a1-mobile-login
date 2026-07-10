@@ -1,49 +1,31 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 420 520"
      width="420"
      height="520">
 
   <defs>
-
-    <linearGradient id="shieldFill"
-                    x1="0%"
-                    y1="0%"
-                    x2="0%"
-                    y2="100%">
-
-      <stop offset="0%" stop-color="#3c7cff"/>
-      <stop offset="100%" stop-color="#0d2e80"/>
-
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FA9FF"/>
+      <stop offset="100%" stop-color="#0B52FF"/>
     </linearGradient>
 
     <filter id="blur">
-
-      <feGaussianBlur stdDeviation="2"/>
-
+      <feGaussianBlur stdDeviation="10"/>
     </filter>
-
   </defs>
 
   <g opacity="0.18" filter="url(#blur)">
-
     <path
-
-      d="
-      M210 30
-      C300 50 360 80 360 80
-      L360 230
-      C360 340 300 425 210 490
-      C120 425 60 340 60 230
-      L60 80
-      C60 80 120 50 210 30
-      Z"
-
-      fill="url(#shieldFill)"
-      stroke="#5fa8ff"
-      stroke-width="10"/>
-
+      d="M210 30
+         C300 50 360 90 360 180
+         L360 270
+         C360 360 300 430 210 490
+         C120 430 60 360 60 270
+         L60 180
+         C60 90 120 50 210 30 Z"
+      fill="url(#shieldGradient)"
+      stroke="#74C0FF"
+      stroke-width="8"/>
   </g>
 
 </svg>
