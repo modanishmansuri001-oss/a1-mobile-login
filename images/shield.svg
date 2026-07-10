@@ -76,6 +76,29 @@ fill="none"
 stroke="#2f8cff"
 stroke-width="2.5"
 opacity="0.65"/>
+
+     <path
+d="M210 82
+C268 95 302 123 302 184
+L302 248
+C302 307 268 354 210 395
+C152 354 118 307 118 248
+L118 184
+C118 123 152 95 210 82Z"
+fill="none"
+stroke="#c7f5ff"
+stroke-width="3"
+opacity="0.55"/>
+
+<path
+d="M165 105
+C140 140 130 200 138 270
+C145 315 160 345 182 370"
+fill="none"
+stroke="#ffffff"
+stroke-width="7"
+stroke-linecap="round"
+opacity="0.18"/>
   </g>
 
 </svg>
