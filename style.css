@@ -14,7 +14,12 @@ body{
     width:100%;
     min-height:100vh;
 
-    background:url("images/New.png") center top/cover no-repeat;
+    background: linear-gradient(
+        180deg,
+        #0b5cff 0%,
+        #5aa8ff 45%,
+        #ffffff 100%
+    );
 
 }
 
@@ -127,21 +132,5 @@ body{
     border-radius:30px;
 
     background    color:#1158ff;
-
-}
-
-.menu-btn{
-
-    width:52px;
-
-    height:52px;
-
-    border:none;
-
-    background:transparent;
-
-    font-size:38px;
-
-    cursor:pointer;
 
 }
