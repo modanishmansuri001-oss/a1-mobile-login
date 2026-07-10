@@ -17,12 +17,12 @@ body{
 
     background: linear-gradient(
     180deg,
-    #04112d 8%,
-    #061b52 20%,
-    #0a3ea8 82%,
-    #1d56c9 88%,
-    #ffffff 90%
-    );
+    #04112d 0%,
+    #061b52 35%,
+    #0a3ea8 88%,
+    #3d79e6 98%,
+    #ffffff 100%
+);
 }
 /* TOP BAR */
 .top-bar{
