@@ -12,19 +12,18 @@ body{
 
 .hero{
     height:calc(100vh - 75px);
-    overflow:hidden;
 
     text-align:center;
     padding-top:35px;
     color:#fff;
+    overflow:hidden;
 
     background:linear-gradient(
         180deg,
         #04112d 0%,
         #061b52 35%,
-        #0a3ea8 65%,
-        #ffffff 82%
-        #ffffff 92%,
+        #0a3ea8 70%,
+        #8fb6ff 88%,
         #ffffff 100%
     );
 }
