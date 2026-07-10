@@ -36,16 +36,16 @@ body{
     content: "";
     position: absolute;
 
-    top: 60px;
-    left: -130px;
+    top: 40px;
+    left: -110px;
 
-    width: 340px;
-    height: 430px;
+    width: 420px;
+    height: 520px;
 
     background: url("images/shield.svg") no-repeat center;
     background-size: contain;
 
-    opacity: .18;
+    opacity: .35;
     pointer-events: none;
 }
 /* TOP BAR */
