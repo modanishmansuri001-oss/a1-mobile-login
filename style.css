@@ -34,3 +34,22 @@ body{
     background:#07142d;
 
 }
+/* =========================
+   LOGIN BACKGROUND
+========================= */
+
+.login-bg{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
