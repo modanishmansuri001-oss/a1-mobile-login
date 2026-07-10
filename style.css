@@ -11,23 +11,24 @@ body{
 }
 
 .hero{
-    
+    height:calc(100vh - 75px);
+    overflow:hidden;
+
     text-align:center;
     padding-top:35px;
     color:#fff;
 
-    background: linear-gradient(
-180deg,
-#04112d 0%,
-#061b52 35%,
-#0a3ea8 60%,
-#4b7fe8 72%,
-#9fc2ff 80%,
-#ffffff 88%,
-#ffffff 92%,
-#ffffff 100%
-);
+    background:linear-gradient(
+        180deg,
+        #04112d 0%,
+        #061b52 35%,
+        #0a3ea8 65%,
+        #ffffff 82%
+        #ffffff 92%,
+        #ffffff 100%
+    );
 }
+
 /* TOP BAR */
 .top-bar{
     height:25px;
@@ -119,15 +120,5 @@ body{
 /* LOGIN CARD */
 
 .login-card{
-
-    width:90%;
-
-    height:850px;
-
-    margin:40px auto;
-
-    border-radius:30px;
-
-    background    color:#1158ff;
-
+    display:none;
 }
