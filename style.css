@@ -6,16 +6,21 @@
 
 body{
     font-family:Arial,sans-serif;
-    background:#07142d;
+    background:#ffffff;
 }
 
 .hero{
-    height:420px;
+    height:520px;
+    text-align:center;
+    padding-top:35px;
+    color:#fff;
 
     background:linear-gradient(
         180deg,
-        #06163d 0%,
-        #0d3ca5 70%,
+        #04112d 0%,
+        #061b52 35%,
+        #0a3ea8 70%,
+        #7faeff 88%,
         #ffffff 100%
     );
 }
