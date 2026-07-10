@@ -36,16 +36,16 @@ body{
     content: "";
     position: absolute;
 
-    top: 40px;
-    left: -110px;
+    top: 85px;
+    left: -165px;
 
-    width: 420px;
-    height: 520px;
+    width: 390px;
+    height: 500px;
 
     background: url("images/left-shield.png") no-repeat center;
     background-size: contain;
 
-    opacity: .35;
+    opacity: .18;
     pointer-events: none;
 }
 /* TOP BAR */
