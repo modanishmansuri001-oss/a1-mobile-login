@@ -78,3 +78,25 @@ L60 205
 C60 110 115 55 210 35Z"
 fill="url(#shieldMain)"
 filter="url(#glow)"/>
+<!-- INNER SHIELD -->
+<path
+d="M210 62
+C286 78 330 122 330 200
+L330 258
+C330 332 286 392 210 440
+C134 392 90 332 90 258
+L90 200
+C90 122 134 78 210 62Z"
+fill="url(#innerLight)"
+opacity=".28"/>
+
+<!-- LEFT SHADOW -->
+<path
+d="M210 35
+C150 60 115 120 115 210
+L115 270
+C115 330 145 382 210 430"
+fill="none"
+stroke="#001B5A"
+stroke-width="14"
+stroke-opacity=".28"/>
