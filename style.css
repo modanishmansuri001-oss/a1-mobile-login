@@ -154,3 +154,18 @@ display: none;
 .login-card{
     display:none;
 }
+
+.hero-right-flow{
+    position: absolute;
+
+    right: -140px;
+    top: 40px;
+
+    width: 320px;
+    height: auto;
+
+    opacity: .18;
+
+    pointer-events: none;
+    z-index: 0;
+    }
