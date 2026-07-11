@@ -158,13 +158,13 @@ display: none;
 .hero-right-flow{
     position: absolute;
 
-    right: -25px;
-    top: 0px;
+    right: -15px;
+    top: -10px;
 
-    width: 320px;
+    width: 200px;
     height: auto;
 
-    opacity: .18;
+    opacity: .19;
 
     pointer-events: none;
     z-index: 0;
