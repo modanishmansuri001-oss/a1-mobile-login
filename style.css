@@ -169,3 +169,20 @@ display: none;
     pointer-events: none;
     z-index: 0;
     }
+.hero-stars{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+}
+.hero-stars span{
+    position:absolute;
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background:#4fb8ff;
+    box-shadow:
+        0 0 6px #4fb8ff,
+        0 0 12px #4fb8ff,
+        0 0 18px #4fb8ff;
+}
