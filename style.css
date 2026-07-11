@@ -49,6 +49,28 @@ body{
     pointer-events: none;
     z-index: 0;
 }
+/* BLUE FOG */
+.hero::after{
+    content:"";
+    position:absolute;
+
+    top:-40px;
+    left:-80px;
+
+    width:420px;
+    height:420px;
+
+    background:radial-gradient(circle,
+        rgba(45,130,255,.35) 0%,
+        rgba(35,110,255,.22) 35%,
+        rgba(20,70,180,.10) 65%,
+        transparent 100%);
+
+    filter:blur(45px);
+
+    pointer-events:none;
+    z-index:1;
+}
 /* TOP BAR */
 .top-bar{
     height:25px;
