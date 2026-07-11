@@ -36,7 +36,7 @@ body{
     content: "";
     position: absolute;
 
-    top: 18px;
+    top: -20px;
     left: -115px;
 
     width: 340px;
