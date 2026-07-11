@@ -37,7 +37,7 @@ body{
     position: absolute;
 
     top: 0px;
-    left: 0px;
+    left: -50px;
 
     width: 150px;
     height: 250px;
@@ -45,7 +45,7 @@ body{
     background: url("images/left-shield.png") no-repeat;
     background-size: contain;
 
-    opacity: .20;
+    opacity: .30;
     pointer-events: none;
     z-index: 0;
 }
