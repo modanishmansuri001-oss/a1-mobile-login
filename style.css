@@ -60,7 +60,11 @@ body{
     width: 220px;
     height: 220px;
 
-    background: red;
+    background: radial-gradient(circle,
+    rgba(45,130,255,.45) 0%,
+    rgba(35,110,255,.25) 45%,
+    rgba(20,70,180,.10) 70%,
+    transparent 100%);
     border-radius: 50%;
 
     opacity: .8;
