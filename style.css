@@ -45,7 +45,7 @@ body{
     background: url("images/left-shield.png") no-repeat;
     background-size: contain;
 
-    opacity: .16;
+    opacity: .20;
     pointer-events: none;
     z-index: 0;
 }
