@@ -54,8 +54,8 @@ body{
     content:"";
     position:absolute;
 
-    top:-40px;
-    left:-80px;
+    top:0px;
+    left:-25px;
 
     width:420px;
     height:420px;
