@@ -204,5 +204,14 @@ display: none;
     box-shadow:0 0 6px #ffffff;
 }
 
-
+.security-rings{
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+}
 
