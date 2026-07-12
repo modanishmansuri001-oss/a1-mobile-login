@@ -206,7 +206,7 @@ display: none;
 
 .security-rings{
     position: absolute;
-    top: -30px;
+    top: -55px;
     left: 50%;
     transform: translateX(-50%);
     width: 200px;
