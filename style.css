@@ -182,7 +182,27 @@ display: none;
     border-radius:50%;
     background:#4fb8ff;
     box-shadow:
-        0 0 6px #4fb8ff,
-        0 0 12px #4fb8ff,
-        0 0 18px #4fb8ff;
+    0 0 5px #4fb8ff,
+    0 0 12px #4fb8ff,
+    0 0 22px #4fb8ff,
+    0 0 35px rgba(79,184,255,.8);
 }
+
+.hero-stars span::after{
+    content:"";
+    position:absolute;
+
+    width:2px;
+    height:2px;
+
+    top:1px;
+    left:1px;
+
+    border-radius:50%;
+    background:#ffffff;
+
+    box-shadow:0 0 6px #ffffff;
+}
+
+
+
