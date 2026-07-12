@@ -209,7 +209,7 @@ display: none;
     top: -55px;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
+    width: 150px;
     height: auto;
     z-index: 2;
     pointer-events: none;
