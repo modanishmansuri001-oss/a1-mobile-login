@@ -155,7 +155,23 @@ display: none;
 /* LOGIN CARD */
 
 .login-card{
-    display:none;
+    width:90%;
+    max-width:360px;
+
+    margin:35px auto 0;
+
+    background:#ffffff;
+
+    border-radius:28px;
+
+    padding:28px 22px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.18);
+
+    position:relative;
+
+    z-index:5;
 }
 
 .hero-right-flow{
