@@ -158,8 +158,6 @@ display: none;
     width:90%;
     max-width:360px;
 
-    margin:35px auto 0;
-
     background:#ffffff;
 
     border-radius:28px;
@@ -168,10 +166,14 @@ display: none;
 
     box-shadow:
     0 10px 30px rgba(0,0,0,.18);
+position:absolute;
 
-    position:relative;
+left:50%;
+top:320px;
 
-    z-index:5;
+transform:translateX(-50%);
+
+z-index:10;
 }
 
 .hero-right-flow{
