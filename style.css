@@ -254,3 +254,74 @@ z-index:10;
     color: rgba(255,255,255,.85);
     text-align: center;
 }
+.input-label{
+    display:block;
+    margin-bottom:12px;
+    font-size:18px;
+    font-weight:700;
+    color:#1d1d1d;
+}
+
+.input-field{
+    display:flex;
+    align-items:center;
+
+    height:64px;
+
+    border:2px solid #eceffd;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background:#fff;
+}
+
+.left-icon{
+
+    width:62px;
+
+    height:62px;
+
+    background:#1565ff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:26px;
+
+    color:#fff;
+}
+
+.input-field input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    padding:0 18px;
+
+    font-size:17px;
+
+    background:transparent;
+}
+
+.right-icon{
+
+    width:62px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    color:#bdbdbd;
+}
