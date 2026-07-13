@@ -279,9 +279,9 @@ z-index:10;
 
 .left-icon{
 
-    width:100px;
+    width:62px;
 
-    height:100px;
+    height:62px;
 
     background:#1565ff;
 
@@ -293,8 +293,8 @@ z-index:10;
 }
 
 .left-icon img{
-    width:40px;
-    height:40px;
+    width:60px;
+    height:60px;
     object-fit:contain;
     display:block;
 }
