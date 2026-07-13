@@ -290,10 +290,13 @@ z-index:10;
     align-items:center;
 
     justify-content:center;
+}
 
-    font-size:26px;
-
-    color:#fff;
+.left-icon img{
+    width:26px;
+    height:26px;
+    object-fit:contain;
+    display:block;
 }
 
 .input-field input{
