@@ -228,8 +228,8 @@ display: none;
 }
 
 .hero-text{
-    margin-top: 20px;
-    font-size: 10px;
+    margin-top: 0px;
+    font-size: 15px;
     color: rgba(255,255,255,.85);
     text-align: center;
 }
