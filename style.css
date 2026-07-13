@@ -206,7 +206,7 @@ display: none;
 
 .security-rings{
     position: absolute;
-    top: -45px;
+    top: -35px;
     left: 50%;
     transform: translateX(-50%);
     width: 120px;
@@ -216,8 +216,8 @@ display: none;
 }
 
 .hero-title{
-    margin-top: 20px;
-    font-size: 42px;
+    margin-top: 40px;
+    font-size: 32px;
     font-weight: 800;
     color: #ffffff;
     text-align: center;
