@@ -36,11 +36,11 @@ body{
     content: "";
     position: absolute;
 
-    top: -20px;
+    top: -40px;
     left: -25px;
 
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 
     background: url("images/left-shield.png") no-repeat;
     background-size: contain;
