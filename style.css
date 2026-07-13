@@ -215,3 +215,21 @@ display: none;
     pointer-events: none;
 }
 
+.hero-title{
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-title span{
+    color: #1e6bff;
+}
+
+.hero-text{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(255,255,255,.85);
+    text-align: center;
+}
