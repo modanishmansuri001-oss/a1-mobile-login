@@ -156,7 +156,7 @@ display: none;
 
 .login-card{
     width:90%;
-    max-width:360px;
+    max-width:330px;
 
     background:#ffffff;
 
@@ -169,7 +169,7 @@ display: none;
 position:absolute;
 
 left:50%;
-top:220px;
+top:200px;
 
 transform:translateX(-50%);
 
