@@ -206,10 +206,10 @@ display: none;
 
 .security-rings{
     position: absolute;
-    top: -35px;
+    top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 150px;
+    width: 100px;
     height: auto;
     z-index: 2;
     pointer-events: none;
