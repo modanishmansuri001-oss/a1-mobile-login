@@ -209,15 +209,15 @@ display: none;
     top: -35px;
     left: 50%;
     transform: translateX(-50%);
-    width: 120px;
+    width: 130px;
     height: auto;
     z-index: 2;
     pointer-events: none;
 }
 
 .hero-title{
-    margin-top: 40px;
-    font-size: 32px;
+    margin-top: 45px;
+    font-size: 25px;
     font-weight: 800;
     color: #ffffff;
     text-align: center;
@@ -228,8 +228,8 @@ display: none;
 }
 
 .hero-text{
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 15px;
     color: rgba(255,255,255,.85);
     text-align: center;
 }
