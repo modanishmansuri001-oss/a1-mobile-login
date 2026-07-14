@@ -278,15 +278,12 @@ z-index:10;
 }
 
 .left-icon{
-
     width:62px;
-
     height:62px;
-
+    background:#1f6bff;
+    border-radius:16px 0 0 16px;
     display:flex;
-
     align-items:center;
-
     justify-content:center;
 }
 
