@@ -265,6 +265,7 @@ z-index:10;
 }
 
 .input-field{
+    margin-top: 15px;
     height:45px;
     border:2px solid #eceffd;
     border-radius:18px;
@@ -283,6 +284,8 @@ z-index:10;
 }
 
 .left-icon img{
+    position: relative;
+    top: -5px;
     width:120px;
     height:120px;
     object-fit:contain;
