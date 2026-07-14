@@ -1,6 +1,4 @@
 
-
-
 *{
     margin:0;
     padding:0;
@@ -255,9 +253,9 @@ z-index:10;
     text-align: center;
 }
 .input-label{
-    color:red !important;
+    color: black ;
     font-size:12px !important;
-    margin-left:50px !important;
+    margin-left:10px !important;
 }
 
 .input-field{
