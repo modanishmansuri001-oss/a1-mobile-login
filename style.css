@@ -256,19 +256,18 @@ z-index:10;
 }
 .input-label{
     display:block;
-    margin-left:10px;
-    margin-bottom:14px;
-    font-size:15px;
+    margin-left:-10px;
+    margin-bottom:10px;
+    font-size:12px;
     font-weight:700;
     color:#1d1d1d;
 }
 
 .input-field{
-    height:50px;
+    height:45px;
     border:2px solid #eceffd;
     border-radius:18px;
     overflow:hidden;
-    width:100%;
     background:#fff;
 }
 
