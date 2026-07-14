@@ -274,21 +274,29 @@ z-index:10;
     border-radius:8px;
     overflow:hidden;
     background:#fff;
+    display:flex;
+    align-items:center;
+
+    padding:0 6px;   /* ya 8px */
 }
 
 .left-icon{
-    width: 60px;
-    height: 60px;
+    width:52px;
+    height:52px;
 
-    background: linear-gradient(180deg,#2f7cff,#155dff);
+    margin:6px;          /* ye sabse important hai */
 
-    border-radius: 10px;
+    border-radius:10px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background:linear-gradient(180deg,#2f7cff,#155dff);
 
-    box-shadow: 0 4px 12px rgba(47,124,255,.35);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    box-shadow:0 6px 14px rgba(47,124,255,.35);
+
+    flex-shrink:0;
 }
 
 .left-icon img{
