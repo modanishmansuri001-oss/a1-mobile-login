@@ -277,13 +277,18 @@ z-index:10;
 }
 
 .left-icon{
-    width:64px;
-    height:64px;
-    background:linear-gradient(180deg,#2f7cff,#155dff);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:14px 0 0 14px;
+    width: 60px;
+    height: 60px;
+
+    background: linear-gradient(180deg,#2f7cff,#155dff);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 12px rgba(47,124,255,.35);
 }
 
 .left-icon img{
