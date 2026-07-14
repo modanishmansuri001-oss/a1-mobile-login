@@ -255,12 +255,9 @@ z-index:10;
     text-align: center;
 }
 .input-label{
-    display:block;
-    margin-left:-10px;
-    margin-bottom:10px;
-    font-size:12px;
-    font-weight:700;
-    color:#1d1d1d;
+    color:red !important;
+    font-size:12px !important;
+    margin-left:50px !important;
 }
 
 .input-field{
