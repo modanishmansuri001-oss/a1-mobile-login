@@ -265,9 +265,10 @@ z-index:10;
 }
 
 .input-field{
+    top: -8px;
     position: relative;
     margin-top: 18px;
-    height:55px;
+    height:60px;
     border:2px solid #eceffd;
     border-radius:18px;
     overflow:hidden;
