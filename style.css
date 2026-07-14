@@ -155,21 +155,21 @@ display: none;
 /* LOGIN CARD */
 
 .login-card{
-    width:90%;
-    max-width:330px;
-
-    background:#ffffff;
+    width:92%;
+    max-width:590px;
+    
+    background:#fff;
 
     border-radius:28px;
 
-    padding:28px 22px;
+    padding:34px 28px;
 
     box-shadow:
-    0 10px 30px rgba(0,0,0,.18);
+    0 15px 40px rgba(0,0,0,.18);
 position:absolute;
 
 left:50%;
-top:200px;
+top:210px;
 
 transform:translateX(-50%);
 
@@ -256,7 +256,7 @@ z-index:10;
 }
 .input-label{
     display:block;
-    margin-bottom:12px;
+    margin-bottom:14px;
     font-size:18px;
     font-weight:700;
     color:#1d1d1d;
