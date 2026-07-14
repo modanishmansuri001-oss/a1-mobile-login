@@ -263,52 +263,33 @@ z-index:10;
 }
 
 .input-field{
-    display:flex;
-    align-items:center;
-
     height:64px;
-
     border:2px solid #eceffd;
-
     border-radius:18px;
-
     overflow:hidden;
-
     background:#fff;
 }
 
 .left-icon{
-    width:62px;
-    height:62px;
-    background:#1f6bff;
-    border-radius:16px 0 0 16px;
+    width:64px;
+    height:64px;
+    background:linear-gradient(180deg,#2f7cff,#155dff);
     display:flex;
     align-items:center;
     justify-content:center;
+    border-radius:14px 0 0 14px;
 }
 
 .left-icon img{
-    width:160px;
-    height:160px;
+    width:42px;
+    height:42px;
     object-fit:contain;
-    display:block;
 }
 
 .input-field input{
-
-    flex:1;
-
-    border:none;
-
-    outline:none;
-
-    padding:0 18px;
-
-    font-size:17px;
-
-    background:transparent;
+    font-size:16px;
+    padding:0 16px;
 }
-
 .right-icon{
 
     width:62px;
