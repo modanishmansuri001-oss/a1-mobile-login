@@ -308,8 +308,12 @@ z-index:10;
 }
 
 .input-field input{
-    font-size:16px;
-    padding:0 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    padding: 0 18px;
 }
 .right-icon{
 
