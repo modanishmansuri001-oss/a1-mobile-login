@@ -253,7 +253,7 @@ z-index:10;
     text-align: center;
 }
 .input-label{
-    color: black ;
+    color: red ;
     font-size:12px !important;
     margin-left:-10px !important;
 }
