@@ -255,7 +255,7 @@ z-index:10;
 .input-label{
     color: black ;
     font-size:12px !important;
-    margin-left:10px !important;
+    margin-left:-10px !important;
 }
 
 .input-field{
