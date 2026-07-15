@@ -302,8 +302,8 @@ z-index:10;
 .left-icon img{
     position: relative;
     top: 2px;
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
     object-fit:contain;
 }
 
