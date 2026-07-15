@@ -343,3 +343,11 @@ z-index:10;
     opacity:0.6;
     cursor:pointer;
 }
+
+.input-group{
+    margin-bottom:22px;
+}
+
+.password-group{
+    margin-top:8px;
+}
