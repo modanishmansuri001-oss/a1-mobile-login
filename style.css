@@ -329,3 +329,17 @@ z-index:10;
 
     color:#bdbdbd;
 }
+
+.right-icon{
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.right-icon img{
+    width:24px;
+    height:24px;
+    opacity:0.6;
+    cursor:pointer;
+}
