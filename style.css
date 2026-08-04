@@ -153,14 +153,14 @@ display: none;
 /* LOGIN CARD */
 
 .login-card{
-    width:92%;
+    width:95%;
     max-width:590px;
     
     background:#fff;
 
     border-radius:28px;
 
-    padding:34px -10px 60px;
+    padding:34px 20px 60px;
 
     box-shadow:
     0 15px 40px rgba(0,0,0,.18);
