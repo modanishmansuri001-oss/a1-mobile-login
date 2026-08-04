@@ -261,16 +261,16 @@ z-index:10;
     color:#111;
     position:relative;
     left:-30px;
-    margin-top: 0px;
+    margin-top: -8px;
 }
 
 .input-field{
     margin-left: -10px;
     position: relative;
     width:100%;
-    max-width:560px;
+    max-width:100%;
     margin-top: 10px;
-    height:55px;
+    height:50px;
     border:2px solid #eceffd;
     border-radius:8px;
     overflow:hidden;
