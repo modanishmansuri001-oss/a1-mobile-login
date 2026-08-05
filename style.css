@@ -167,7 +167,7 @@ display: none;
 position:absolute;
 
 left:50%;
-top:180px;
+top:200px;
 
 transform:translateX(-50%);
 
@@ -247,6 +247,7 @@ z-index:10;
 }
 
 .hero-text{
+    margin-bottom: 20px;
     margin-top: 0px;
     font-size: 15px;
     color: rgba(255,255,255,.85);
@@ -278,6 +279,7 @@ z-index:10;
     background:#fff;
     display:flex;
     align-items:center;
+    border: 1px solid #e8ecfa;
 
     padding:0 6px;   /* ya 8px */
 }
