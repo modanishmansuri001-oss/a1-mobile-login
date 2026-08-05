@@ -282,12 +282,12 @@ z-index:10;
 }
 
 .left-icon{
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
 
-    margin:6px;          /* ye sabse important hai */
+    margin:0 6px 0 0;          /* ye sabse important hai */
 
-    border-radius:10px;
+    border-radius:5px;
 
     background:linear-gradient(180deg,#2f7cff,#155dff);
 
@@ -303,8 +303,8 @@ z-index:10;
 .left-icon img{
     position: relative;
     top: 1px;
-    width:80px;
-    height:80px;
+    width:24px;
+    height:24px;
     object-fit:contain;
 }
 
@@ -314,7 +314,7 @@ z-index:10;
     background: transparent;
     flex: 1;
     font-size: 16px;
-    padding: 0 18px;
+    padding: 0 10px;
 }
 .right-icon{
 
