@@ -285,8 +285,9 @@ z-index:10;
 }
 
 .left-icon{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
+    border-radius:4px;
 
     margin:0 6px 0 0;          /* ye sabse important hai */
 
@@ -305,7 +306,7 @@ z-index:10;
 
 .left-icon img{
     position: relative;
-    top: 1px;
+    top: 0px;
     width:50px;
     height:50px;
     object-fit:contain;
@@ -318,7 +319,8 @@ z-index:10;
     flex: 1;
     font-size: 16px;
     padding: 0 10px;
-    padding-left: 100px;
+    padding-left:16px;
+    padding-right:12px;
 }
 .right-icon{
 
