@@ -13,6 +13,7 @@ body{
 }
 
 .hero{
+    
     height:calc(100vh - 75px);
 
     text-align:center;
