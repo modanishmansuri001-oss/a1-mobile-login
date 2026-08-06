@@ -47,6 +47,7 @@ body{
     background-size: contain;
 
     opacity: .30;
+    
     pointer-events: none;
     z-index: 0;
 }
