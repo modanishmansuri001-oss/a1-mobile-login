@@ -18,8 +18,7 @@ body{
     padding-top:35px;
     color:#fff;
     overflow:hidden;
-
-    background:linear-gradient(
+   background:linear-gradient(
         180deg,
         #04112d 0%,
         #061b52 35%,
@@ -288,11 +287,10 @@ z-index:10;
 .left-icon{
     width:30px;
     height:30px;
-    border-radius:4px;
 
     margin:0 6px 0 0;          /* ye sabse important hai */
 
-    border-radius:5px;
+    border-radius:3px;
 
     background:linear-gradient(180deg,#2f7cff,#155dff);
 
