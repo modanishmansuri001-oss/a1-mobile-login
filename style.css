@@ -393,3 +393,27 @@ z-index:10;
 .forgot-password:hover{
     text-decoration:underline;
 }
+
+.login-btn{
+    width:100%;
+    height:56px;
+    margin-top:20px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(90deg,#0f5cff,#1f6cff);
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,80,255,.35);
+}
+
+.login-btn img{
+    width:24px;
+    height:24px;
+    filter:brightness(0) invert(1);
+}
