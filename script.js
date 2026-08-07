@@ -1,5 +1,6 @@
 const pass = document.getElementById("password");
-const eye = document.querySelector(".right-icon img");
+
+const eye = document.querySelector(".password-group .right-icon img");
 
 eye.onclick = function () {
     if (pass.type === "password") {
