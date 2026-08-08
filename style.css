@@ -396,13 +396,13 @@ z-index:10;
 
 .login-btn{
     width:100%;
-    height:50px;
+    height:40px;
     margin-top:20px;
     border:none;
     border-radius:30px;
     background:linear-gradient(90deg,#0f5cff,#1f6cff);
     color:#fff;
-    font-size:24px;
+    font-size:15px;
     font-weight:700;
     display:flex;
     justify-content:center;
