@@ -445,8 +445,8 @@ z-index:10;
 
 .register-box{
     width:100%;
-    height: 85px;
-    min-height:85px;
+    height: 50px;
+    min-height:50px;
     padding:5px 10px;
     background:#f1f6ff;
     border-radius:18px;
@@ -462,8 +462,8 @@ z-index:10;
 /* REGISTER ICON */
 
 .register-icon{
-    width:49px;
-    height:49px;
+    width:30px;
+    height:30px;
     flex-shrink:0;
 
     display:flex;
@@ -492,14 +492,14 @@ z-index:10;
 .register-text strong{
     display: block;
     margin-bottom: 4px;
-    font-size:12px;
+    font-size:10px;
     color:#111;
     white-space:nowrap;
 }
 
 .register-text small{
     display: block;
-    font-size:13px;
+    font-size:11px;
     color:#777;
     line-height:18px;
 }
@@ -509,15 +509,15 @@ z-index:10;
 
 .register-btn{
     flex-shrink:0;
-    height:42px;
-    padding:0 14px;
+    height:21px;
+    padding:0 10px;
 
     background:#fff;
     border:1.5px solid #1465df;
-    border-radius:10px;
+    border-radius:8px;
 
     color:#1465df;
-    font-size:13px;
+    font-size:8px;
     font-weight:600;
 
     display:flex;
@@ -526,6 +526,6 @@ z-index:10;
 }
 
 .register-btn span{
-    font-size:24px;
+    font-size:18px;
     line-height:1;
 }
