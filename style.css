@@ -498,7 +498,7 @@ z-index:10;
 .register-text strong{
     display: block;
     margin-bottom: 4px;
-    font-size:16px;
+    font-size:10px;
     line-height: 20px;
     color:#111;
     white-space:nowrap;
@@ -506,7 +506,7 @@ z-index:10;
 
 .register-text small{
     display: block;
-    font-size:14px;
+    font-size:8px;
     color:#777;
     line-height:20px;
 }
