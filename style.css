@@ -612,34 +612,3 @@ z-index:10;
     flex-shrink: 0;
 }
 
-/* =========================
-   TARGET STYLE BOTTOM FLOW
-========================= */
-
-#loginPage {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 125px !important;
-}
-
-#loginPage::after {
-    content: "";
-    position: absolute;
-    left: -8%;
-    bottom: 0;
-    width: 116%;
-    height: 125px;
-
-    background: linear-gradient(
-        180deg,
-        #dceaff 0%,
-        #8dbaff 28%,
-        #1455d4 58%,
-        #06286f 100%
-    );
-
-    border-radius: 50% 50% 0 0 / 28% 28% 0 0;
-
-    z-index: 0;
-    pointer-events: none;
-}
