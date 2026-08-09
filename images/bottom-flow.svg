@@ -2,7 +2,6 @@
      viewBox="0 0 800 220"
      preserveAspectRatio="none">
 
-  <!-- Light blue upper flow -->
   <path
     d="M0 0
        H800
@@ -12,7 +11,6 @@
        Z"
     fill="#dceaff"/>
 
-  <!-- Dark blue lower flow -->
   <path
     d="M0 85
        C210 160 350 140 480 105
@@ -22,7 +20,6 @@
        Z"
     fill="#0645b8"/>
 
-  <!-- Deep blue bottom -->
   <path
     d="M0 145
        C180 205 330 195 470 155
@@ -30,4 +27,6 @@
        V220
        H0
        Z"
-   
+    fill="#062b78"/>
+
+</svg>
