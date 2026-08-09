@@ -507,11 +507,11 @@ z-index:10;
 .register-text small{
     display:block;
     font-size:8px;
-    color:#777;
-    line-height:20px;
+    color:#667085;
+    line-height:18px;
     font-weight:550;
 
-    transform:translateY(-4px) !important;
+    margin-top:-8px !important;
 }
 
 
