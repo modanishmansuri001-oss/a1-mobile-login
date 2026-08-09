@@ -484,9 +484,13 @@ z-index:10;
 
 .register-text{
     flex:1;
+    justify-content: center;
     min-width:0;
     margin-left: 8px;
+    align-items: flex-start;
     display:flex;
+    text-align: left;
+    transform: translateY(2px);
     flex-direction:column;
     gap:4px;
 }
@@ -494,16 +498,17 @@ z-index:10;
 .register-text strong{
     display: block;
     margin-bottom: 4px;
-    font-size:10px;
+    font-size:16px;
+    line-height: 20px;
     color:#111;
     white-space:nowrap;
 }
 
 .register-text small{
     display: block;
-    font-size:11px;
+    font-size:14px;
     color:#777;
-    line-height:18px;
+    line-height:20px;
 }
 
 
