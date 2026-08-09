@@ -613,31 +613,33 @@ z-index:10;
 }
 
 /* =========================
-   BOTTOM BLUE FLOW
+   TARGET STYLE BOTTOM FLOW
 ========================= */
 
 #loginPage {
     position: relative;
     overflow: hidden;
+    padding-bottom: 125px !important;
 }
 
 #loginPage::after {
     content: "";
     position: absolute;
-    left: -10%;
-    bottom: -55px;
-    width: 120%;
-    height: 120px;
+    left: -8%;
+    bottom: 0;
+    width: 116%;
+    height: 125px;
 
     background: linear-gradient(
         180deg,
         #dceaff 0%,
-        #8bb8ff 35%,
-        #1457d9 70%,
-        #062b83 100%
+        #8dbaff 28%,
+        #1455d4 58%,
+        #06286f 100%
     );
 
-    border-radius: 50% 50% 0 0 / 45% 45% 0 0;
+    border-radius: 50% 50% 0 0 / 28% 28% 0 0;
+
     z-index: 0;
     pointer-events: none;
 }
