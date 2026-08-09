@@ -611,3 +611,33 @@ z-index:10;
     background: #d8d8d8;
     flex-shrink: 0;
 }
+
+/* =========================
+   BOTTOM BLUE FLOW
+========================= */
+
+#loginPage {
+    position: relative;
+    overflow: hidden;
+}
+
+#loginPage::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    bottom: -55px;
+    width: 120%;
+    height: 120px;
+
+    background: linear-gradient(
+        180deg,
+        #dceaff 0%,
+        #8bb8ff 35%,
+        #1457d9 70%,
+        #062b83 100%
+    );
+
+    border-radius: 50% 50% 0 0 / 45% 45% 0 0;
+    z-index: 0;
+    pointer-events: none;
+}
