@@ -1,96 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 720 210"
-     width="100%"
-     height="210"
+     viewBox="0 0 800 220"
      preserveAspectRatio="none">
 
-  <defs>
-    <linearGradient id="lightWave" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e9f2ff"/>
-      <stop offset="100%" stop-color="#8eb8f5"/>
-    </linearGradient>
-
-    <linearGradient id="darkWave" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1767e8"/>
-      <stop offset="100%" stop-color="#031d5c"/>
-    </linearGradient>
-
-    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2580ff"/>
-      <stop offset="100%" stop-color="#063d9d"/>
-    </linearGradient>
-
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="4" stdDeviation="4"
-                    flood-color="#001b55" flood-opacity=".35"/>
-    </filter>
-  </defs>
-
-  <!-- Light blue upper wave -->
+  <!-- Light blue upper flow -->
   <path
-    d="M0 45
-       C120 82 210 82 360 55
-       C510 28 600 28 720 65
-       L720 210
-       L0 210 Z"
-    fill="url(#lightWave)"/>
+    d="M0 0
+       H800
+       V105
+       C680 80 590 75 480 105
+       C350 140 210 160 0 85
+       Z"
+    fill="#dceaff"/>
 
-  <!-- Dark blue lower wave -->
+  <!-- Dark blue lower flow -->
   <path
-    d="M0 105
-       C120 145 220 145 360 112
-       C500 78 610 82 720 120
-       L720 210
-       L0 210 Z"
-    fill="url(#darkWave)"/>
+    d="M0 85
+       C210 160 350 140 480 105
+       C590 75 680 80 800 105
+       V220
+       H0
+       Z"
+    fill="#0645b8"/>
 
-  <!-- A1 shield -->
-  <g transform="translate(360 112)" filter="url(#shadow)">
-
-    <path
-      d="M-25 -32
-         L25 -32
-         L25 8
-         C25 30 0 43 0 43
-         C0 43 -25 30 -25 8 Z"
-      fill="#062b78"
-      stroke="#ffffff"
-      stroke-width="3"/>
-
-    <path
-      d="M-19 -25
-         L19 -25
-         L19 7
-         C19 22 0 33 0 33
-         C0 33 -19 22 -19 7 Z"
-      fill="url(#shield)"
-      stroke="#4aa0ff"
-      stroke-width="2"/>
-
-    <text
-      x="0"
-      y="10"
-      text-anchor="middle"
-      font-family="Arial, sans-serif"
-      font-size="23"
-      font-weight="800"
-      fill="white">A1</text>
-  </g>
-
-  <!-- Bottom text -->
-  <text
-    x="360"
-    y="181"
-    text-anchor="middle"
-    font-family="Arial, sans-serif"
-    font-size="17"
-    font-weight="600"
-    fill="white">
-    Secure
-    <tspan fill="#2580ff"> • </tspan>
-    Reliable
-    <tspan fill="#2580ff"> • </tspan>
-    Trusted
-  </text>
-
-</svg>
+  <!-- Deep blue bottom -->
+  <path
+    d="M0 145
+       C180 205 330 195 470 155
+       C600 120 700 125 800 150
+       V220
+       H0
+       Z"
+   
