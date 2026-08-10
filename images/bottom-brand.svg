@@ -1,39 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 220 110"
-     preserveAspectRatio="xMidYMid meet">
+     viewBox="0 0 120 120"
+     width="120"
+     height="120">
 
-  <!-- A1 Shield -->
+  <defs>
+    <linearGradient id="shieldBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#176BFF"/>
+      <stop offset="55%" stop-color="#0B4FD7"/>
+      <stop offset="100%" stop-color="#07358F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer shield -->
   <path
-    d="M110 5 L145 17 V48
-       C145 72 130 91 110 101
-       C90 91 75 72 75 48 V17 Z"
-    fill="#123d91"
-    stroke="#ffffff"
+    d="M60 6
+       L102 21
+       L98 69
+       C95 91 79 106 60 115
+       C41 106 25 91 22 69
+       L18 21
+       Z"
+    fill="none"
+    stroke="#EAF3FF"
+    stroke-width="4"/>
+
+  <!-- Blue shield -->
+  <path
+    d="M60 11
+       L97 24
+       L93 68
+       C90 87 76 100 60 108
+       C44 100 30 87 27 68
+       L23 24
+       Z"
+    fill="url(#shieldBlue)"
+    stroke="#65A7FF"
     stroke-width="3"/>
 
   <!-- Inner shield -->
   <path
-    d="M110 13 L137 23 V47
-       C137 65 126 80 110 89
-       C94 80 83 65 83 47 V23 Z"
-    fill="#1557c8"
-    stroke="#61a5ff"
-    stroke-width="2"/>
+    d="M60 21
+       L87 30
+       L84 66
+       C82 81 72 91 60 98
+       C48 91 38 81 36 66
+       L33 30
+       Z"
+    fill="none"
+    stroke="#8CC5FF"
+    stroke-width="2"
+    opacity=".8"/>
 
   <!-- A1 -->
-  <text x="110" y="57"
-        text-anchor="middle"
-        font-family="Arial, sans-serif"
-        font-size="27"
-        font-weight="700"
-        fill="#ffffff">A1</text>
-
-  <!-- Bottom text -->
-  <text x="110" y="106"
-        text-anchor="middle"
-        font-family="Arial, sans-serif"
-        font-size="13"
-        font-weight="500"
-        fill="#ffffff">Secure • Reliable • Trusted</text>
+  <text
+    x="60"
+    y="72"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="32"
+    font-weight="700"
+    fill="white">A1</text>
 
 </svg>
