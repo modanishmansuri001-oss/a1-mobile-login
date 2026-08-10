@@ -629,3 +629,37 @@ z-index:10;
     height: 100%;
     object-fit: fill;
 }
+
+/* ===== BOTTOM FLOW FIX ===== */
+
+.bottom-flow {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
+    background: transparent !important;
+}
+
+.bottom-flow img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card ke neeche extra white hatao */
+.login-card {
+    margin-bottom: 0 !important;
+}
+
+/* Flow ke aas-paas white strip nahi */
+.hero {
+    background: linear-gradient(
+        to bottom,
+        #061b50 0%,
+        #0b2d78 55%,
+        #dceaff 100%
+    );
+}
