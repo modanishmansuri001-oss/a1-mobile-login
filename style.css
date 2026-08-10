@@ -664,19 +664,13 @@ z-index:10;
     );
 }
 
-.bottom-flow img.bottom-brand {
+.bottom-brand {
     position: absolute !important;
-
-    width: 80px !important;
-    height: 60px !important;
-
+    width: 50px !important;
+    height: 50px !important;
     left: 50% !important;
-    bottom: 35px !important;
-
+    bottom: 40px !important;
     transform: translateX(-50%) !important;
-
-    object-fit: contain !important;
-
     z-index: 3 !important;
-    pointer-events: none;
+    pointer-events: none !important;
 }
