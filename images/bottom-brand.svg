@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 220 110"
+     preserveAspectRatio="xMidYMid meet">
+
+  <!-- A1 Shield -->
+  <path
+    d="M110 5 L145 17 V48
+       C145 72 130 91 110 101
+       C90 91 75 72 75 48 V17 Z"
+    fill="#123d91"
+    stroke="#ffffff"
+    stroke-width="3"/>
+
+  <!-- Inner shield -->
+  <path
+    d="M110 13 L137 23 V47
+       C137 65 126 80 110 89
+       C94 80 83 65 83 47 V23 Z"
+    fill="#1557c8"
+    stroke="#61a5ff"
+    stroke-width="2"/>
+
+  <!-- A1 -->
+  <text x="110" y="57"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700"
+        fill="#ffffff">A1</text>
+
+  <!-- Bottom text -->
+  <text x="110" y="106"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        font-weight="500"
+        fill="#ffffff">Secure • Reliable • Trusted</text>
+
+</svg>
