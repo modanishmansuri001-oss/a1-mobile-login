@@ -665,32 +665,26 @@ z-index:10;
     margin: 0 !important;
     padding: 0 !important;
 }
-/* ===== ADVANCED ANIMATION 01 - SECURITY EMBLEM ===== */
+/* ===== ADVANCED ANIMATION 01 ===== */
 
 .security-rings {
-    animation:
-        securityFloat 4s ease-in-out infinite,
-        securityGlow 2.8s ease-in-out infinite;
-    transform-origin: center center;
-    will-change: transform, filter;
+    animation: securityPulse 2.8s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    will-change: filter, opacity;
 }
 
-@keyframes securityFloat {
+@keyframes securityPulse {
     0%, 100% {
-        transform: translateY(0) scale(1);
+        filter:
+            drop-shadow(0 0 2px rgba(0, 180, 255, .25))
+            drop-shadow(0 0 6px rgba(0, 120, 255, .10));
+        opacity: .94;
     }
 
     50% {
-        transform: translateY(-5px) scale(1.025);
-    }
-}
-
-@keyframes securityGlow {
-    0%, 100% {
-        filter: drop-shadow(0 0 2px rgba(0, 170, 255, 0.35));
-    }
-
-    50% {
-        filter: drop-shadow(0 0 12px rgba(0, 190, 255, 0.85));
+        filter:
+            drop-shadow(0 0 5px rgba(0, 210, 255, .75))
+            drop-shadow(0 0 18px rgba(0, 130, 255, .45));
+        opacity: 1;
     }
 }
