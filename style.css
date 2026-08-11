@@ -801,3 +801,54 @@ z-index:10;
         filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
     }
 }
+
+
+/* ===== STEP 4 : LOGIN BUTTON LIGHT SWEEP ===== */
+
+.login-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* Moving light */
+.login-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+        110deg,
+        transparent 0%,
+        rgba(255,255,255,0.08) 35%,
+        rgba(255,255,255,0.65) 50%,
+        rgba(255,255,255,0.08) 65%,
+        transparent 100%
+    );
+
+    transform: skewX(-20deg);
+    animation: loginShine 3.2s ease-in-out infinite;
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Icon + text uper rahenge */
+.login-btn img,
+.login-btn {
+    isolation: isolate;
+}
+
+@keyframes loginShine {
+    0% {
+        left: -80%;
+    }
+
+    45%,
+    100% {
+        left: 130%;
+    }
+}
