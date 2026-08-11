@@ -670,11 +670,11 @@ z-index:10;
 .bottom-brand {
     position: absolute !important;
 
-    width: 40px !important;
-    height: 40px !important;
+    width: 20px !important;
+    height: 20px !important;
 
     left: 50% !important;
-    bottom: 18px !important;
+    bottom: 35px !important;
 
     transform: translateX(-50%) !important;
 
