@@ -883,3 +883,43 @@ z-index:10;
 .login-input:focus::placeholder {
     opacity: 0.45;
 }
+
+/* ===== STEP 5 FIX : PREMIUM INPUT FOCUS ===== */
+
+.input-field {
+    transition:
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        transform 0.25s ease,
+        background 0.35s ease;
+}
+
+.input-field:focus-within {
+    border-color: #1e6bff !important;
+
+    box-shadow:
+        0 0 0 3px rgba(30,107,255,.12),
+        0 6px 20px rgba(30,107,255,.18) !important;
+
+    transform: translateY(-2px);
+    background: #ffffff !important;
+}
+
+.input-field:focus-within .left-icon {
+    transform: scale(1.05);
+    box-shadow: 0 0 14px rgba(30,107,255,.35);
+}
+
+.input-field .left-icon {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.input-field input {
+    transition: color 0.3s ease;
+}
+
+.input-field input:focus {
+    outline: none;
+}
