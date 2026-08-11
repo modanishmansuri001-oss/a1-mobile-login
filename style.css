@@ -923,3 +923,52 @@ z-index:10;
 .input-field input:focus {
     outline: none;
 }
+
+/* ===== STEP 6 : PREMIUM LOGIN BUTTON SHINE ===== */
+
+.login-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* Moving light */
+.login-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+        110deg,
+        transparent,
+        rgba(255,255,255,0.45),
+        transparent
+    );
+
+    transform: skewX(-20deg);
+    animation: loginShine 3s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes loginShine {
+    0% {
+        left: -80%;
+    }
+
+    45% {
+        left: 130%;
+    }
+
+    100% {
+        left: 130%;
+    }
+}
+
+/* Button content stays above shine */
+.login-btn img,
+.login-btn {
+    isolation: isolate;
+}
