@@ -774,23 +774,30 @@ z-index:10;
     }
 }
 
-/* ===== STEP 4 : SECURITY RING ROTATION ===== */
-
 .security-rings {
     animation:
         shieldPulse 2.8s ease-in-out infinite,
-        shieldGlow 2.8s ease-in-out infinite,
-        ringRotate 18s linear infinite !important;
-    transform-origin: center center;
+        shieldGlow 2.8s ease-in-out infinite;
+    transform-origin: center;
     will-change: transform, filter;
 }
 
-@keyframes ringRotate {
-    from {
-        transform: translateX(-50%) rotate(0deg);
+@keyframes shieldPulse {
+    0%, 100% {
+        transform: translateX(-50%) scale(0.96);
     }
 
-    to {
-        transform: translateX(-50%) rotate(360deg);
+    50% {
+        transform: translateX(-50%) scale(1.06);
+    }
+}
+
+@keyframes shieldGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 0px rgba(0, 180, 255, 0));
+    }
+
+    50% {
+        filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
     }
 }
