@@ -773,3 +773,24 @@ z-index:10;
         filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
     }
 }
+
+/* ===== STEP 4 : SECURITY RING ROTATION ===== */
+
+.security-rings {
+    animation:
+        shieldPulse 2.8s ease-in-out infinite,
+        shieldGlow 2.8s ease-in-out infinite,
+        ringRotate 18s linear infinite !important;
+    transform-origin: center center;
+    will-change: transform, filter;
+}
+
+@keyframes ringRotate {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
