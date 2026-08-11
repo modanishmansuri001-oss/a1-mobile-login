@@ -743,3 +743,33 @@ z-index:10;
         filter: brightness(2);
     }
 }
+
+/* ===== STEP 3 : SECURITY SHIELD ENERGY ===== */
+
+.security-rings {
+    animation:
+        shieldPulse 2.8s ease-in-out infinite,
+        shieldGlow 2.8s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform, filter;
+}
+
+@keyframes shieldPulse {
+    0%, 100% {
+        transform: scale(0.96);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+}
+
+@keyframes shieldGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 0px rgba(0, 180, 255, 0));
+    }
+
+    50% {
+        filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
+    }
+}
