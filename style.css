@@ -756,11 +756,11 @@ z-index:10;
 
 @keyframes shieldPulse {
     0%, 100% {
-        transform: scale(0.96);
+        transform: translateX(-50%) scale(0.96);
     }
 
     50% {
-        transform: scale(1.06);
+        transform: translateX(-50%) scale(1.06);
     }
 }
 
