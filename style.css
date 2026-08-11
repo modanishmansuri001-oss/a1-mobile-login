@@ -665,21 +665,3 @@ z-index:10;
     margin: 0 !important;
     padding: 0 !important;
 }
-
-/* A1 shield logo */
-.bottom-brand {
-    position: absolute !important;
-
-    width: 30px !important;
-    height: 30px !important;
-
-    left: 50% !important;
-    bottom: 45px !important;
-
-    transform: translateX(-50%) !important;
-
-    object-fit: contain !important;
-
-    z-index: 5 !important;
-    pointer-events: none !important;
-}
