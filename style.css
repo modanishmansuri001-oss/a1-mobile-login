@@ -924,103 +924,47 @@ z-index:10;
     outline: none;
 }
 
-/* ===== STEP 6 : PREMIUM LOGIN BUTTON SHINE ===== */
+/* ===== STEP 6 : LOGIN BUTTON PREMIUM ANIMATION ===== */
 
 .login-btn {
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
-}
-
-/* Moving light */
-.login-btn::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -80%;
-    width: 45%;
-    height: 100%;
-
     background: linear-gradient(
-        110deg,
-        transparent,
-        rgba(255,255,255,0.45),
-        transparent
-    );
+        120deg,
+        #0f5cff,
+        #1f6cff,
+        #62a8ff,
+        #1f6cff,
+        #0f5cff
+    ) !important;
 
-    transform: skewX(-20deg);
-    animation: loginShine 3s ease-in-out infinite;
-    pointer-events: none;
+    background-size: 300% 100% !important;
+
+    animation: loginPremium 3s ease-in-out infinite !important;
+
+    box-shadow:
+        0 8px 20px rgba(0,80,255,.35),
+        0 0 0 rgba(30,107,255,0);
 }
 
-@keyframes loginShine {
+@keyframes loginPremium {
+
     0% {
-        left: -80%;
+        background-position: 0% 50%;
+        box-shadow:
+            0 8px 20px rgba(0,80,255,.35),
+            0 0 0 rgba(30,107,255,0);
     }
 
-    45% {
-        left: 130%;
+    50% {
+        background-position: 100% 50%;
+        box-shadow:
+            0 8px 24px rgba(0,80,255,.45),
+            0 0 18px rgba(30,107,255,.20);
     }
 
     100% {
-        left: 130%;
+        background-position: 0% 50%;
+        box-shadow:
+            0 8px 20px rgba(0,80,255,.35),
+            0 0 0 rgba(30,107,255,0);
     }
-}
-
-/* Button content stays above shine */
-.login-btn img,
-.login-btn {
-    isolation: isolate;
-}
-
-/* ===== STEP 6 : VISIBLE LOGIN BUTTON SHINE ===== */
-
-.login-btn{
-    position:relative !important;
-    overflow:hidden !important;
-}
-
-/* Bright moving light */
-.login-btn::before{
-    content:"" !important;
-    position:absolute !important;
-
-    top:-20% !important;
-    left:-60% !important;
-
-    width:35% !important;
-    height:140% !important;
-
-    background:rgba(255,255,255,0.55) !important;
-
-    transform:skewX(-25deg) !important;
-
-    filter:blur(2px) !important;
-
-    animation:loginLightMove 2.2s linear infinite !important;
-
-    z-index:1 !important;
-    pointer-events:none !important;
-}
-
-/* Keep icon + Login text above light */
-.login-btn img,
-.login-btn{
-    z-index:2;
-}
-
-@keyframes loginLightMove{
-
-    0%{
-        left:-60%;
-    }
-
-    45%{
-        left:125%;
-    }
-
-    100%{
-        left:125%;
-    }
-
 }
