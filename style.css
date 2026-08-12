@@ -1418,3 +1418,34 @@ z-index:10;
         text-shadow: 0 0 8px rgba(30,107,255,.25);
     }
 }
+
+/* ===== STEP 15 : SECURITY ICONS PREMIUM FLOAT ===== */
+
+.security-item i,
+.security-item img {
+    animation: securityFloat 3s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.security-item:nth-child(2) i,
+.security-item:nth-child(2) img {
+    animation-delay: .8s;
+}
+
+.security-item:nth-child(3) i,
+.security-item:nth-child(3) img {
+    animation-delay: 1.6s;
+}
+
+@keyframes securityFloat {
+
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        filter: drop-shadow(0 0 0 rgba(30,107,255,0));
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1.05);
+        filter: drop-shadow(0 0 7px rgba(30,107,255,.35));
+    }
+}
