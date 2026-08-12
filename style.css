@@ -985,20 +985,39 @@ z-index:10;
         0 0 25px rgba(30,107,255,.35) !important;
 }
 
-/* ===== STEP 8 : FORGOT PASSWORD PREMIUM EFFECT ===== */
+/* ===== STEP 8 : FORGOT PASSWORD PREMIUM GLOW ===== */
 
-.forgot-link {
-    position: relative;
-    transition:
-        color 0.30s ease,
-        text-shadow 0.30s ease,
-        transform 0.4s ease;
+.forgot-password {
+    position: relative !important;
+    display: inline-block;
+    color: #246BDB !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
 }
 
-.forgot-link:active {
-    color: #0f5cff !important;
-    transform: scale(0.96);
+/* Animated blue underline */
+.forgot-password::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #1677ff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(22,119,255,.8);
+    transition: width 0.35s ease;
+}
 
-    text-shadow:
-        0 0 8px rgba(30,107,255,.45);
+/* Touch / press effect */
+.forgot-password:active,
+.forgot-password:focus {
+    color: #075cff !important;
+    transform: scale(0.96);
+    text-shadow: 0 0 10px rgba(22,119,255,.55);
+}
+
+.forgot-password:active::after,
+.forgot-password:focus::after {
+    width: 100%;
 }
