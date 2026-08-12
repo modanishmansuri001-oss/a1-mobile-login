@@ -1335,3 +1335,86 @@ z-index:10;
         text-shadow: 0 0 8px rgba(30,107,255,.35);
     }
 }
+
+/* ===== STEP 14 : OR PREMIUM LIGHT SWEEP ===== */
+
+.or-divider {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.or-divider span {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* OR ke dono sides par moving blue light */
+.or-divider span::after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: -60%;
+
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(30,107,255,.75),
+        transparent
+    );
+
+    animation: orLineSweep 2.8s ease-in-out infinite;
+}
+
+/* Right line thoda delay se */
+.or-divider span:last-child::after {
+    animation-delay: 1.4s;
+}
+
+/* OR text */
+.or-divider b {
+    position: relative;
+    z-index: 5;
+
+    color: #7b8494 !important;
+
+    animation: orTextPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes orLineSweep {
+
+    0% {
+        left: -60%;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 120%;
+        opacity: 0;
+    }
+}
+
+@keyframes orTextPulse {
+
+    0%, 100% {
+        opacity: .65;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.06);
+        text-shadow: 0 0 8px rgba(30,107,255,.25);
+    }
+}
