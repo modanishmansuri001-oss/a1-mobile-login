@@ -990,9 +990,9 @@ z-index:10;
 .forgot-link {
     position: relative;
     transition:
-        color 0.25s ease,
-        text-shadow 0.25s ease,
-        transform 0.2s ease;
+        color 0.30s ease,
+        text-shadow 0.30s ease,
+        transform 0.4s ease;
 }
 
 .forgot-link:active {
