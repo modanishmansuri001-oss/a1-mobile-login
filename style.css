@@ -1105,3 +1105,76 @@ z-index:10;
     filter: drop-shadow(0 0 6px rgba(30,107,255,.45));
     opacity: 1;
 }
+
+/* ===== STEP 11 : PREMIUM REMEMBER CHECKBOX ===== */
+
+.remember-me input {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 19px;
+    height: 19px;
+    margin: 0;
+
+    border: 2px solid #cbd5e1;
+    border-radius: 5px;
+    background: #fff;
+
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Check mark */
+.remember-me input::before {
+    content: "";
+    width: 5px;
+    height: 9px;
+
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+    transform: rotate(45deg) scale(0);
+    transition: transform 0.2s ease;
+}
+
+/* Checked state */
+.remember-me input:checked {
+    background: #1565ff;
+    border-color: #1565ff;
+
+    box-shadow:
+        0 0 0 4px rgba(21,101,255,.10),
+        0 4px 10px rgba(21,101,255,.25);
+
+    animation: rememberPop 0.35s ease;
+}
+
+.remember-me input:checked::before {
+    transform: rotate(45deg) scale(1);
+}
+
+/* Tap effect */
+.remember-me input:active {
+    transform: scale(0.82);
+}
+
+@keyframes rememberPop {
+    0% {
+        transform: scale(0.75);
+    }
+
+    60% {
+        transform: scale(1.12);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
