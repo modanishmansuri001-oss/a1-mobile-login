@@ -984,3 +984,21 @@ z-index:10;
         0 3px 10px rgba(0,80,255,.35),
         0 0 25px rgba(30,107,255,.35) !important;
 }
+
+/* ===== STEP 8 : FORGOT PASSWORD PREMIUM EFFECT ===== */
+
+.forgot-link {
+    position: relative;
+    transition:
+        color 0.25s ease,
+        text-shadow 0.25s ease,
+        transform 0.2s ease;
+}
+
+.forgot-link:active {
+    color: #0f5cff !important;
+    transform: scale(0.96);
+
+    text-shadow:
+        0 0 8px rgba(30,107,255,.45);
+}
