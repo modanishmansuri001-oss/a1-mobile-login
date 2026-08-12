@@ -1178,3 +1178,100 @@ z-index:10;
         transform: scale(1);
     }
 }
+
+/* ===== STEP 12 : PREMIUM REGISTER BUTTON ===== */
+
+.register-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+
+    box-shadow: 0 3px 10px rgba(20,101,223,.08);
+}
+
+/* Moving shine */
+.register-btn::before {
+    content: "";
+    position: absolute;
+
+    top: -30%;
+    left: -80%;
+
+    width: 45%;
+    height: 160%;
+
+    background: linear-gradient(
+        110deg,
+        transparent,
+        rgba(255,255,255,.85),
+        transparent
+    );
+
+    transform: skewX(-20deg);
+
+    animation: registerShine 3.2s ease-in-out infinite;
+
+    pointer-events: none;
+}
+
+/* Text + arrow above shine */
+.register-btn {
+    z-index: 1;
+}
+
+.register-btn span,
+.register-btn {
+    isolation: isolate;
+}
+
+/* Soft breathing glow */
+.register-btn {
+    animation: registerGlow 3s ease-in-out infinite;
+}
+
+/* Touch effect */
+.register-btn:active {
+    transform: scale(.94);
+    box-shadow:
+        0 2px 6px rgba(20,101,223,.15);
+}
+
+/* Arrow animation */
+.register-btn span {
+    display: inline-block;
+    transition: transform .25s ease;
+}
+
+.register-btn:active span {
+    transform: translateX(4px);
+}
+
+/* Shine movement */
+@keyframes registerShine {
+
+    0%, 45% {
+        left: -80%;
+    }
+
+    70%, 100% {
+        left: 140%;
+    }
+}
+
+/* Very subtle premium glow */
+@keyframes registerGlow {
+
+    0%, 100% {
+        box-shadow: 0 3px 10px rgba(20,101,223,.08);
+    }
+
+    50% {
+        box-shadow:
+            0 5px 16px rgba(20,101,223,.18);
+    }
+}
