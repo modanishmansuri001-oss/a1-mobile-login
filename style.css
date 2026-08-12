@@ -1275,3 +1275,63 @@ z-index:10;
             0 5px 16px rgba(20,101,223,.18);
     }
 }
+
+/* ===== STEP 13 : PREMIUM OR DIVIDER ===== */
+
+.or-divider {
+    position: relative;
+    overflow: hidden;
+}
+
+.or-divider::before,
+.or-divider::after {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Moving light across divider */
+.or-divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    width: 25%;
+    height: 1px;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(30,107,255,.8),
+        transparent
+    );
+
+    animation: dividerLight 3.5s linear infinite;
+}
+
+/* Soft OR glow */
+.or-divider span {
+    position: relative;
+    z-index: 2;
+    animation: orGlow 2.8s ease-in-out infinite;
+}
+
+@keyframes dividerLight {
+    0% {
+        left: -30%;
+    }
+
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes orGlow {
+    0%, 100% {
+        opacity: .65;
+        text-shadow: 0 0 0 rgba(30,107,255,0);
+    }
+
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 8px rgba(30,107,255,.35);
+    }
+}
