@@ -1534,15 +1534,3 @@ z-index:10;
     }
 
 }
-
-#loginPage {
-    display: none;
-}
-
-body.login-mode #homePage {
-    display: none !important;
-}
-
-body.login-mode #loginPage {
-    display: block !important;
-}
